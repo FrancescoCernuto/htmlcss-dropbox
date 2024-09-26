@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ 
+ /* GENERAL */
+ .row::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  p {
+    font-size: 12px;
+    word-spacing: 3px;
+    margin-bottom: 25px;
+  }
+  
+  h1 {
+    font-size: 55px;
+    word-spacing: 5px;
+    margin-bottom: 30px;
+  }
+    
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+  }
+  
+  header {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* NAVBAR */
+  nav {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 15px; 
+  }
+  
+  nav img {
+   vertical-align: text-bottom;
+  }
+  
+  .navbar {
+    display:inline-block; 
+  }
+  
+  .navbar-list {
+    margin: 0 20px;
+  } 
+  
+  .navbar-list li{
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  #bt-small {
+    width: 60px;
+    margin: 15px 0;
+  }
+  
+
+  /* JUMBOTRON */
+.jumbotron {
+    background-color: #add1ea;
+    width: 1200px;
+    height: 650;
+    padding: 20px 40px;
+  }
+  
+  .container.jumbo {
+    padding-top: 50px;
+    height: 500px;
+  }
+  
+  .jumbo-text {
+    width: 320px;
+    height: 250px;
+  }
+  
+  .image-jumbo {
+    width: 650px;
+    position: relative;
+  }
+  
+  .image-jumbo img {
+    width: 600px;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .bt.main.jumbo {
+    margin-bottom: 15px;
+  }
+  
+  i.fas.fa-arrow-down {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+ 
